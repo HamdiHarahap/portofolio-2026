@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.typed-cursor {
+	display: inline-block;
+	width: 2px;
+	margin-left: 4px;
+	color: transparent;
+
+	background: linear-gradient(to right, #34d399, #14b8a6);
+
+	border-radius: 0.12em;
+	animation: blink 0.9s infinite;
+}
