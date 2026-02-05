@@ -46,7 +46,7 @@ const Navbar = () => {
 			}`}
 		>
 			<div className="px-36 py-4 flex justify-between items-end max-[520px]:px-4 max-[520px]:flex-col max-[520px]:items-start max-[520px]:gap-8">
-				<div className="max-[520px]:flex justify-between items-center w-full">
+				<div className="max-[520px]:flex max-[520px]:justify-between max-[520px]:items-center max-[520px]:w-full">
 					<a
 						href="#"
 						className="bg-linear-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent font-bold text-lg max-[520px]:text-xl"
