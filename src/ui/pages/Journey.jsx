@@ -16,13 +16,13 @@ const Journey = () => {
 					<div className="bg-linear-to-r from-emerald-400 to-teal-500 w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] shadow-lg shadow-emerald-400/40 max-[520px]:hidden"></div>
 					<div className="w-1 h-80 bg-linear-to-b from-emerald-400 to-teal-500 mx-auto rounded-t-full min-[520px]:hidden"></div>
 					<div className="text-end max-[520px]:text-start max-[520px]:w-60">
-						<h4 className="text-emerald-400 font-semibold text-lg">
+						<h4 className="text-emerald-400 font-semibold text-lg max-[520px]:text-base">
 							2023 - 2027
 						</h4>
-						<h1 className="font-bold text-3xl rounded-t-md">
+						<h1 className="font-bold text-3xl rounded-t-md max-[520px]:text-2xl">
 							Politeknik Negeri Medan
 						</h1>
-						<p className="text-gray-400 font-semibold text-xl">
+						<p className="text-gray-400 font-semibold text-xl max-[520px]:text-lg">
 							Software Engineering
 						</p>
 					</div>
@@ -36,11 +36,13 @@ const Journey = () => {
 					<div className="max-[520px]:hidden"></div>
 					<div className="w-1 h-80 bg-linear-to-b from-emerald-400 to-teal-500 mx-auto max-[520px]:hidden"></div>
 					<div className="text-start max-[520px]:w-60">
-						<h4 className="text-emerald-400 font-semibold text-lg">
+						<h4 className="text-emerald-400 font-semibold text-lg max-[520px]:text-base">
 							2020 - 2023
 						</h4>
-						<h1 className="font-bold text-3xl">MAN 2 Model Medan</h1>
-						<p className="text-gray-400 font-semibold text-xl">
+						<h1 className="font-bold text-3xl max-[520px]:text-2xl">
+							MAN 2 Model Medan
+						</h1>
+						<p className="text-gray-400 font-semibold text-xl max-[520px]:text-lg">
 							Natural Sciences
 						</p>
 					</div>
@@ -50,11 +52,13 @@ const Journey = () => {
 					<div className="bg-linear-to-r from-emerald-400 to-teal-500 w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] shadow-lg shadow-emerald-400/40 max-[520px]:hidden"></div>
 					<div className="w-1 h-80 bg-linear-to-b from-emerald-400 to-teal-500 mx-auto rounded-t-full min-[520px]:hidden"></div>
 					<div className="text-end max-[520px]:text-start max-[520px]:w-60">
-						<h4 className="text-emerald-400 font-semibold text-lg">
+						<h4 className="text-emerald-400 font-semibold text-lg max-[520px]:text-base">
 							2017 - 2020
 						</h4>
-						<h1 className="font-bold text-3xl">SMP Muhammadiyah 1 Medan</h1>
-						<p className="text-gray-400 font-semibold text-xl">
+						<h1 className="font-bold text-3xl max-[520px]:text-2xl">
+							SMP Muhammadiyah 1 Medan
+						</h1>
+						<p className="text-gray-400 font-semibold text-xl max-[520px]:text-lg">
 							General Studies
 						</p>
 					</div>
