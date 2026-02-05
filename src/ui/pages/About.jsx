@@ -23,7 +23,7 @@ const About = () => {
 				on.
 			</p>
 			<div className="relative w-fit">
-				<div className="absolute -inset-1 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-2xl" />
+				<div className="absolute -inset-1 max-[520px]:inset-0 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl max-[520px]:blur-3xl opacity-30 rounded-2xl" />
 				<div className="relative flex items-center gap-2 ps-6 pe-32 py-4 rounded-2xl bg-black/40 backdrop-blur-xl border border-white/10 text-gray-20 font-medium italic max-[520px]:items-start">
 					<span className="text-3xl text-emerald-400 leading-none max-[520px]:text-2xl">
 						“

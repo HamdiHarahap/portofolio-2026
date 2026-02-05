@@ -102,7 +102,7 @@ const Home = () => {
 						},
 					].map((item, index) => (
 						<div key={index} className="relative group">
-							<div className="absolute -inset-1 bg-linear-to-r from-emerald-400 to-teal-500 blur-xl opacity-30 rounded-xl group-hover:opacity-60 transition duration-300" />
+							<div className="absolute -inset-1 max-[520px]:inset-0 bg-linear-to-r from-emerald-400 to-teal-500 blur-xl max-[520px]:blur-lg opacity-30 rounded-xl group-hover:opacity-60 transition duration-300" />
 
 							<a href={item.href} className="relative z-10">
 								<Button variant="primary" className="flex items-center gap-3">

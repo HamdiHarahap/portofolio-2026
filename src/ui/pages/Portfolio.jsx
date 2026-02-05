@@ -27,7 +27,7 @@ const Portofolio = () => {
 				</p>
 			</div>
 			<div className="relative">
-				<div className="absolute -inset-1 bg-linear-to-r from-emerald-400 to-teal-500 blur-2xl opacity-20 rounded-xl" />
+				<div className="absolute -inset-1 max-[520px]:inset-0 bg-linear-to-r from-emerald-400 to-teal-500 blur-2xl opacity-20 rounded-xl" />
 				<div className="relative flex items-center bg-black/40 backdrop-blur-xl border border-white/10 rounded-xl p-2">
 					{['Projects', 'Certificates'].map((item) => (
 						<button
