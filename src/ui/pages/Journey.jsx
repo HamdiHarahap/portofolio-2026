@@ -11,7 +11,7 @@ const Journey = () => {
 					</span>
 				</h1>
 			</div>
-			<div className="flex flex-col items-center max-[520px]:w-full pt-32">
+			<div className="flex flex-col items-center max-[520px]:w-full pt-32 max-[520px]:gap-10">
 				<div className="grid grid-cols-3 w-full max-w-6xl max-[520px]:w-full items-center relative">
 					<div className="bg-linear-to-r from-emerald-400 to-teal-500 w-8 h-8 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] shadow-lg shadow-emerald-400/40 max-[520px]:hidden"></div>
 					<div className="w-1 h-80 bg-linear-to-b from-emerald-400 to-teal-500 mx-auto rounded-t-full min-[520px]:hidden"></div>
@@ -39,7 +39,7 @@ const Journey = () => {
 						<h4 className="text-emerald-400 font-semibold text-lg max-[520px]:text-base">
 							2020 - 2023
 						</h4>
-						<h1 className="font-bold text-3xl max-[520px]:text-2xl">
+						<h1 className="font-bold text-3xl max-[520px]:text-2xl max-[520px]:w-full">
 							MAN 2 Model Medan
 						</h1>
 						<p className="text-gray-400 font-semibold text-xl max-[520px]:text-lg">
