@@ -52,10 +52,10 @@ const Home = () => {
 
 	return (
 		<section
-			className="flex justify-between items-center min-h-screen"
+			className="flex justify-between items-center min-h-screen max-[520px]:flex-col max-[520px]:gap-16"
 			id="home"
 		>
-			<div className="flex flex-col gap-7 w-1/2">
+			<div className="flex flex-col gap-7 w-1/2 max-[520px]:w-full">
 				<div className="relative">
 					<div className="absolute w-96 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -top-5 -left-10"></div>
 					<div className="absolute w-108 h-20 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -bottom-5  -left-10 "></div>
@@ -88,7 +88,7 @@ const Home = () => {
 					Modern web development focused on performance, scalability, and clean
 					user experience.
 				</p>
-				<div className="flex items-center gap-5">
+				<div className="flex items-center gap-5 max-[520px]:justify-center">
 					{[
 						{
 							name: 'Projects',

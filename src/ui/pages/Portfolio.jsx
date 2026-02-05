@@ -35,7 +35,7 @@ const Portofolio = () => {
 							onClick={() => setSelected(item)}
 							className={`
 								flex items-center justify-center gap-2
-								px-12 py-4 rounded-lg font-semibold
+								px-12 max-[520px]:px-7 py-4 rounded-lg font-semibold
 								transition-all duration-300
 								${
 									selected === item
@@ -54,7 +54,7 @@ const Portofolio = () => {
 					))}
 				</div>
 			</div>
-			<div className="grid grid-cols-3 gap-5 gap-y-5 pt-12">
+			<div className="grid grid-cols-3 gap-5 gap-y-5 pt-12 max-[520px]:grid-cols-1">
 				{selected === 'Projects'
 					? projects.map((item) => (
 							<Card

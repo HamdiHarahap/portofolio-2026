@@ -30,7 +30,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center gap-5">
+			<div className="flex items-center gap-5 max-[520px]:justify-center">
 				{[
 					{
 						name: 'Download CV',

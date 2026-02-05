@@ -1,5 +1,11 @@
 const Button = (props) => {
-	const { children, variant = 'default', className, width = 'w-40' } = props;
+	const {
+		children,
+		variant = 'default',
+		className,
+		width = 'w-40',
+		onClick = () => {},
+	} = props;
 
 	const baseClass =
 		'font-semibold text-sm  py-3 rounded-lg transition duration-300 transform cursor-pointer justify-center';
@@ -15,6 +21,7 @@ const Button = (props) => {
 	return (
 		<button
 			className={`${baseClass} ${variants[variant]} ${className} ${width}`}
+			onClick={onClick}
 		>
 			{children}
 		</button>
