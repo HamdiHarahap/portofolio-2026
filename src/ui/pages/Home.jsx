@@ -57,9 +57,9 @@ const Home = () => {
 		>
 			<div className="flex flex-col gap-7 w-1/2 max-[520px]:w-full">
 				<div className="relative">
-					<div className="absolute w-96 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -top-5 -left-10"></div>
-					<div className="absolute w-108 h-20 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -bottom-5  -left-10 "></div>
-					<h1 className="text-7xl font-bold tracking-wide z-40 relative">
+					<div className="absolute w-96 h-24 max-[520px]:w-56 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -top-5 -left-10"></div>
+					<div className="absolute w-108 h-20 max-[520px]:w-full bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -bottom-5  -left-10 "></div>
+					<h1 className="text-7xl max-[520px]:text-6xl font-bold tracking-wide z-40 relative">
 						Fullstack <br />{' '}
 						<span className="bg-linear-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
 							Developer
@@ -67,7 +67,7 @@ const Home = () => {
 					</h1>
 				</div>
 				<div>
-					<span ref={el} className="text-2xl"></span>
+					<span ref={el} className="text-2xl max-[520px]:text-xl"></span>
 				</div>
 				<div className="flex items-center gap-10">
 					{socials.map((item, index) => (

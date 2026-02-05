@@ -13,14 +13,14 @@ const Portofolio = () => {
 			className="min-h-screen flex flex-col items-center justify-center py-12"
 		>
 			<div className="relative mb-10">
-				<div className="absolute w-176 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-0 left-1/2 -translate-x-1/2"></div>
-				<h1 className="text-6xl font-bold tracking-wide relative text-center">
+				<div className="absolute w-176 h-24 max-[520px]:w-full bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-0 left-1/2 -translate-x-1/2"></div>
+				<h1 className="text-6xl font-bold tracking-wide relative text-center max-[520px]:text-5xl">
 					Portfolio{' '}
 					<span className="bg-linear-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
 						Showcase
 					</span>
 				</h1>
-				<p className="mt-6 max-w-180 mx-auto text-center text-gray-400 text-xl">
+				<p className="mt-6 max-w-180 mx-auto text-center text-gray-400 text-xl max-[520px]:text-lg">
 					Explore my journey through projects, certifications, and technical
 					expertise. Each section represents a milestone in my continuous
 					learning path.

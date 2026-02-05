@@ -23,14 +23,22 @@ const Project = () => {
 					</Button>
 				</Link>
 			</nav>
-			<section className="flex justify-between gap-10">
+			<section className="flex justify-between gap-10 max-[520px]:gap-0">
 				<div>
 					<div className="flex flex-col gap-5 relative">
-						<div className="absolute w-96 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -top-5 -left-10"></div>
-						<h1 className="text-6xl font-bold tracking-wide z-40 relative bg-clip-text bg-linear-to-r from-emerald-200 via-white to-teal-300 text-transparent">
+						<div className="absolute w-96 max-[520px]:w-full h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full -top-5 -left-10 max-[520px]:left-0"></div>
+						<h1 className="text-6xl max-[520px]:text-5xl font-bold tracking-wide z-40 relative bg-clip-text bg-linear-to-r from-emerald-200 via-white to-teal-300 text-transparent">
 							{details.title}
 						</h1>
 						<div className="w-28 h-1 bg-linear-to-r from-emerald-400 to-teal-500 rounded-full"></div>
+					</div>
+					<div className="group min-[520px]:hidden mt-12">
+						<div className="w-140 max-[520px]:w-full h-86 max-[520px]:h-64 overflow-hidden rounded-md group-hover:border-3 group-hover:border-emerald-400 transition duration-300">
+							<img
+								src={`/${details.image}`}
+								className="object-cover w-full h-full transition-transform duration-500 ease-out group-hover:scale-110"
+							/>
+						</div>
 					</div>
 					<p className="my-8 text-gray-300 text-lg">{details.description}</p>
 					<div>
@@ -58,9 +66,9 @@ const Project = () => {
 							</span>{' '}
 							Technologies Used
 						</h2>
-						<div className="flex gap-3 items-center py-5">
+						<div className="flex gap-3 items-center py-5 max-[520px]:justify-between">
 							{details.tech.map((item, index) => (
-								<Button key={index} width="w-32">
+								<Button key={index} width="w-32 max-[520px]:w-full">
 									{item}
 								</Button>
 							))}
@@ -68,7 +76,7 @@ const Project = () => {
 					</div>
 				</div>
 				<div>
-					<div className="group">
+					<div className="group max-[520px]:hidden">
 						<div className="w-140 h-86 overflow-hidden rounded-md group-hover:border-3 group-hover:border-emerald-400 transition duration-300">
 							<img
 								src={`/${details.image}`}

@@ -2,9 +2,9 @@ const Journey = () => {
 	return (
 		<section className="pb-20 flex flex-col">
 			<div className="relative">
-				<div className="absolute w-96 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
-				<div className="absolute w-140 h-16 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
-				<h1 className="text-6xl font-bold tracking-wide z-40 relative text-center">
+				<div className="absolute w-96 max-[520px]:w-56 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
+				<div className="absolute w-140 max-[520px]:w-56 h-16 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
+				<h1 className="text-6xl font-bold tracking-wide z-40 relative text-center max-[520px]:text-5xl">
 					My Educational <br />{' '}
 					<span className="bg-linear-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
 						Journey

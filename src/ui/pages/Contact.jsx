@@ -4,11 +4,11 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="min-h-screen flex flex-col gap-12 items-center justify-center"
+			className="min-h-screen flex flex-col gap-12 items-center justify-center max-[520px]:min-h-fit max-[520px]:py-20"
 		>
 			<div className="relative">
-				<div className="absolute w-96 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
-				<div className="absolute w-140 h-16 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
+				<div className="absolute w-96 max-[520px]:w-56 h-24 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
+				<div className="absolute w-140 max-[520px]:w-56 h-16 bg-linear-to-r from-emerald-400 to-teal-500 blur-3xl opacity-30 rounded-full top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></div>
 				<h1 className="text-6xl font-bold tracking-wide z-40 relative text-center">
 					Get In{' '}
 					<span className="bg-linear-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
@@ -16,7 +16,7 @@ const Contact = () => {
 					</span>
 				</h1>
 			</div>
-			<p className="text-gray-400 text-xl text-center max-w-2xl">
+			<p className="text-gray-400 text-xl text-center max-w-2xl max-[520px]:text-lg max-[520px]:w-full">
 				I'm currently looking for any new opportunities, my inbox is always
 				open. Whether you have a question or just want to say hi, I'll try my
 				best to get back to you!
