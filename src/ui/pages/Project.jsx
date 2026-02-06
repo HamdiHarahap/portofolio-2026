@@ -66,9 +66,9 @@ const Project = () => {
 							</span>{' '}
 							Technologies Used
 						</h2>
-						<div className="flex gap-3 items-center py-5 max-[520px]:justify-between">
+						<div className="flex gap-3 items-center py-5 w-full max-[520px]:flex-wrap">
 							{details.tech.map((item, index) => (
-								<Button key={index} width="w-32 max-[520px]:w-full">
+								<Button key={index} width="w-32 px-4">
 									{item}
 								</Button>
 							))}

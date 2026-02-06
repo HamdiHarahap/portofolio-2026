@@ -84,17 +84,11 @@ const Journey = () => {
 					<div className="max-[520px]:hidden"></div>
 				</div>
 			</div>
-			{/* MOBILE VIEW */}
 			<div className="flex flex-col gap-10 w-full max-w-md mx-auto min-[520px]:hidden pt-24">
 				{journeys.map((item, index) => (
 					<div key={index} className="relative pl-10">
-						{/* Line */}
 						<div className="absolute left-4 top-0 h-full w-px bg-linear-to-b from-emerald-400 to-teal-500"></div>
-
-						{/* Dot */}
 						<div className="absolute left-2 top-2 w-4 h-4 rounded-full bg-linear-to-r from-emerald-400 to-teal-500 shadow-md shadow-emerald-400/40"></div>
-
-						{/* Content */}
 						<div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-xl p-4">
 							<h4 className="text-emerald-400 font-semibold text-sm">
 								{item.year}
